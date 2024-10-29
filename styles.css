@@ -1,0 +1,160 @@
+div{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border: 2px black solid;
+}
+.staticbox{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    border: 2px black solid;
+    position: static;
+
+    
+}
+.relativebox{
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    border: 2px black solid;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    right: 30px;
+    
+}
+.absolutebox{
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    border: 2px black solid;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+.fixedbox{
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    border: 2px black solid;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+
+}
+.stickybox{
+    background-color: purple;
+    width: 150px;
+    height: 150px;
+    border: 2px black solid;
+    position: sticky;
+    top: 0px;
+}
+.backgroundimage{
+    width: 150px;
+    height: 150px;
+    border: 2px black solid;
+    background-image: url(image.png);
+    background-size: cover;
+    
+} 
+
+
+.box2{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    border: 2px black solid;
+    z-index: 2;
+    position: absolute;
+    
+}
+.box1{
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    border: 2px black solid;
+    z-index: 1;
+    position: absolute;
+    
+}
+.flexcontainer{
+    width: 500px;
+    height: 450px;
+    border: 2px black solid;
+    position: relative;
+    flex-direction: row;
+}
+.flexcoloumn{
+    width: 500px;
+    height: 500px;
+    border: 2px black solid;
+    flex-direction: column;
+    display: flex;
+}
+
+.even{
+    width: 500px;
+    height: 500px;
+    border: 2px black solid;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.filler{
+    background-color: brown;
+}
+
+.wrap{
+    width: 500px;
+    height: 500px;
+    border: 2px black solid;
+    flex-wrap: wrap;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+
+.filler1{
+    background-color: brown;
+    height: 200px;
+}
+
+
+.filler2{
+    background-color: brown;
+    height: 300px;
+}
+
+
+.filler3{
+    background-color: brown;
+    height: 100px;
+}
+
+.heights{
+    width: 500px;
+    height: 500px;
+    border: 2px black solid;
+    align-items: center;
+    display: flex;
+}
+
+.flex{
+    width: 500px;
+    height: 500px;
+    border: 2px black solid;
+    align-items: center;
+    flex-direction: column-reverse;
+    -ms-flex-direction: row;
+    display: flex;
+}
+
+.grow{
+    background-color: brown;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
